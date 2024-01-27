@@ -24,6 +24,7 @@ import BookUploadForm from "./components/NewBookForm";
 // import RequestBookDisplayOnAdminDashboard from "./pages/admin/RequestBookDisplayOnAdminDashboard";
 // import { UpdateBookForm } from "./components/UpdateBooks";
 import PurchaseBookForm from "./components/PuchaseBookForm";
+import AdminProfile from "./pages/admin/admin_information";
 
 function App() {
   return (
@@ -124,7 +125,7 @@ function App() {
                 </ProtectedRoute>
               }
             /> */}
-          
+            <Route path="/AdminProfile" element={<AdminProfile />} />
             <Route path="/Request-Books/page2" element={<BookRequestPage2 />} />
             <Route path="/Request-Books/page1" element={<BookRequestPage1 />} />
             <Route path="/SwitchPage" element={<SwitchPage />} />

@@ -57,7 +57,7 @@ function AdminNavbar() {
             </Button>
           </li>
           <li className="nav-item btn-pro-set">
-            <Link to={"/Account-setting"} className="profile">
+            <Link to={"/AdminProfile"} className="profile">
               <img src={photoURL} alt="User profile" />
             </Link>
           </li>
